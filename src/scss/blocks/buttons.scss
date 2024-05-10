@@ -1,9 +1,13 @@
 .link {
-  text-align: center;
   padding-block: 10px;
+  padding-inline: 20px;
   background-color: #9acbdb;
-  width: 100px;
   border-radius: 5px;
   color: #fff;
   line-height: 29px;
+
+  &-container {
+    display: flex;
+    justify-content: center;
+  }
 }
