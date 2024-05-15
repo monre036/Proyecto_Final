@@ -1,7 +1,12 @@
+@use '../mixins/responsive.scss' as *;
+
 .main {
   padding-inline: 15px;
   padding-top: 14px;
   margin-bottom: 50px;
-  //width: 70%;
-  //margin-inline: auto;
+
+  @include responsive(laptop) {
+    width: 142.5vh;
+    margin-inline: auto;
+  }
 }

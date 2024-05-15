@@ -17,13 +17,21 @@
   <header class="header">
     <div class="logo">
       <img class="logo-img" src="./assets/images/logo.png" alt="" />
-      <h2 class="title">Trópicamente</h2>
+      <h2 class="title"><a href="index.html">TropTrip</a></h2>
     </div>
-    <img class="header__menu-icon" src="assets/images/hamburger_icon.svg.webp" alt="">
+    <img id="menu-icon" class="header__menu-icon" src="assets/images/hamburger_icon.svg.webp" alt="">
+    <nav id="dropdown-menu" class="dropdown-menu">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#opcion1">Destinos</a></li>
+        <li><a href="#opcion2">Nosotros</a></li>
+        <li><a href="#opcion3">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main class="main">
-    <div>
+    <div class="card">
       <h1 class="title-top">Destinos tropicales para todo el año</h1>
       <img class="img" src="assets/images/selva_carretera.jpg" alt="">
       <p class="text">Los viajes tropicales te invitan a descubrir destinos exóticos en Asia, América, Oceanía y
@@ -43,7 +51,7 @@
         duraderos en estos paraísos terrenales.
       </p>
     </div>
-    <div>
+    <div class="card">
       <h2 class="title-l">Kenya</h2>
       <img class="img" src="assets/images/kenya_jirafa.jpg" alt="">
       <p class="text">Kenia, ubicado en el este de África, es un destino imprescindible para aquellos que buscan
@@ -66,7 +74,7 @@
         <a class="link" href="#">Más información</a>
       </div>
     </div>
-    <div>
+    <div class="card">
       <h2 class="title-l">Costa Rica</h2>
       <img class="img" src="assets/images/costarica_playa.jpg" alt="">
       <p class="text">Costa Rica es un paraíso natural conocido por su impresionante diversidad de paisajes y vida
@@ -96,7 +104,7 @@
         <a class="link" href="#">Más información</a>
       </div>
     </div>
-    <div>
+    <div class="card">
       <h2 class="title-l">Polinesia francesa</h2>
       <img class="img" src="assets/images/polinesiafrancesa_playa.jpg" alt="">
       <p class="text">La Polinesia Francesa destaca como uno de los destinos más cautivadores en Oceanía. En primer
@@ -116,7 +124,7 @@
         <a class="link" href="#">Más información</a>
       </div>
     </div>
-    <div>
+    <div class="card">
       <h2 class="title-l">Hawaii</h2>
       <img class="img" src="assets/images/hawaii_monrtanas.jpg" alt="">
       <p class="text">
@@ -139,7 +147,7 @@
         <a class="link" href="#">Más información</a>
       </div>
     </div>
-    <div>
+    <div class="card">
       <h2 class="title-l">Isla de Pascua</h2>
       <img class="img" src="assets/images/isladepascua_moáis.jpg" alt="">
       <p class="text">
@@ -164,7 +172,7 @@
         <a class="link" href="#">Más información</a>
       </div>
     </div>
-    <div>
+    <div class="card">
       <h2 class="title-l">Madagascar</h2>
       <img class="img" src="assets/images/madagascar_lemur.jpg" alt="">
       <p class="text">
@@ -188,7 +196,7 @@
         <a class="link" href="#">Más información</a>
       </div>
     </div>
-    <div>
+    <div class="card">
       <h2 class="title-l">Seychelles</h2>
       <img class="img" src="assets/images/seychelles_playa.jpg" alt="">
       <p class="text">
@@ -214,7 +222,7 @@
         <a class="link" href="#">Más información</a>
       </div>
     </div>
-    <div>
+    <div class="card">
       <h2 class="title-l">Bahamas</h2>
       <img class="img" src="assets/images/islasbahamas_islas.jpg" alt="">
       <p class="text">
@@ -245,7 +253,7 @@
         <a class="link" href="#">Más información</a>
       </div>
     </div>
-    <div>
+    <div class="card">
       <h2 class="title-l">Maldivas</h2>
       <img class="img" src="assets/images/maldivas_islas.jpg" alt="">
       <p class="text">
@@ -274,7 +282,7 @@
         <a class="link" href="#">Más información</a>
       </div>
     </div>
-    <div>
+    <div class="card">
       <h2 class="title-l">Vietnam</h2>
       <img class="img" src="assets/images/vietnam_montanas.jpg" alt="">
       <p class="text">
@@ -328,7 +336,7 @@
     </div>
   </main>
   <footer>
-    <p>&copy; 2024 Trópicamente by Vicente. Todos los derechos reservados.</p>
+    <p>&copy; 2024 TropTrip by Vicente. Todos los derechos reservados.</p>
   </footer>
 
   <script type="module" src="./js/index.js"></script>
