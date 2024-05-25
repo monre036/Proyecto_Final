@@ -2,18 +2,26 @@
   color: #00755e;
   font-weight: 700;
 
-  &-top {
+  &--top {
     color: #00755e;
     font-size: 29px;
     font-weight: 420;
     letter-spacing: 2px;
+    line-height: 40px;
     text-align: center;
   }
 
-  &-l {
+  &--l {
     text-align: left;
     color: #000000c2;
     font-size: 32px;
     font-weight: 420;
   }
+}
+
+.subtitle {
+  text-align: center;
+  line-height: 29px;
+  font-size: 24px;
+  color: #000000c2;
 }

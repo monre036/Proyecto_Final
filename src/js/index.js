@@ -12,4 +12,14 @@ document.addEventListener('DOMContentLoaded', function () {
             dropdownMenu.style.display = 'none';
         }
     });
+
+    window.addEventListener('resize', function () {
+        const windowWidth = window.innerWidth;
+
+        if (windowWidth >= 768) {
+            dropdownMenu.style.display = 'block';
+        } else {
+            dropdownMenu.style.display = 'none';
+        }
+    });
 });

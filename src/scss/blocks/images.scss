@@ -1,4 +1,6 @@
+@use '../mixins/responsive.scss' as *;
 @use '../mixins/pseudo.scss' as *;
+@use '../mixins/hover.scss' as *;
 
 .img {
   border: 4px solid #00755e;
@@ -8,16 +10,27 @@
 .top-image-container {
   width: 100%;
   height: 500px;
-  overflow: hidden;
-  position: relative;
   margin-bottom: 50px;
 }
 
 .top-image {
   width: 100%;
-  height: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translateY(-25%);
+  height: 100%;
+  object-fit: cover;
+  object-position: 75%;
+
+  @include responsive(tablet) {
+    object-position: center 41%;
+  }
+}
+
+.card--country__image {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+
+  @include hover {
+    opacity: 0.7;
+    transition: opacity 0.1s ease;
+  }
 }
