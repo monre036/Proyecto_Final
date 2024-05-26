@@ -22,6 +22,61 @@
   @include responsive(tablet) {
     object-position: center 41%;
   }
+
+  &--africa {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 20%;
+
+    @include responsive(tablet) {
+      object-position: center 65%;
+    }
+  }
+
+  &--asia {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 20%;
+
+    @include responsive(tablet) {
+      object-position: center 55%;
+    }
+  }
+
+  &--europe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 30%;
+
+    @include responsive(tablet) {
+      object-position: center 40%;
+    }
+  }
+
+  &--oceania {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 30%;
+
+    @include responsive(tablet) {
+      object-position: center 50%;
+    }
+  }
+
+  &--america {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 15%;
+
+    @include responsive(tablet) {
+      object-position: center 75%;
+    }
+  }
 }
 
 .card--country__image {
