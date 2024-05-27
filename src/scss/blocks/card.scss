@@ -1,15 +1,22 @@
-.card {
-  margin-bottom: 50px;
+@use '../mixins/responsive.scss' as *;
 
+.card {
   &--country--container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
     align-items: center;
+
+    @include responsive(tablet) {
+      flex-direction: row;
+      justify-content: space-around;
+      gap: 20px;
+    }
   }
 
   &--country {
     width: 400px;
     height: 450px;
-    margin-bottom: 35px;
   }
 }
