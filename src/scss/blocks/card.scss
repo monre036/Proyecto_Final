@@ -1,13 +1,14 @@
 @use '../mixins/responsive.scss' as *;
 
 .card {
-  &--country--container {
+  margin-bottom: 70px;
+
+  &--continent--container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 15px;
     align-items: center;
-    margin-bottom: 100px;
 
     @include responsive(tablet) {
       flex-direction: row;
@@ -16,8 +17,9 @@
     }
   }
 
-  &--country {
+  &--continent {
     width: 400px;
     height: 450px;
+    margin-bottom: 50px;
   }
 }

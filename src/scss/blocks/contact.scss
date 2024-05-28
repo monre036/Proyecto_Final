@@ -1,0 +1,28 @@
+.contact-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.contact-form__label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555;
+}
+
+.contact-form__input, 
+.contact-form__textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00755e8a;
+    border-radius: 5px;
+    font-size: 14px;
+}
